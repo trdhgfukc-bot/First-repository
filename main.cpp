@@ -4,7 +4,7 @@
 int main(int argc, char** argv){
     char* str = (char*)malloc(sizeof(char)*SIZE);
     printf("ВВЕДИТЕ СВОЕ ИМЯЯЯЯЯЯЯЯЯЯЯЯ:\n");
-    scanf("%s", str);
+    str=gets(str);
     printf("привет, %s", str);
     return 0;
 }
